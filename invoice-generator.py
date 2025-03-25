@@ -99,7 +99,7 @@ def create_invoice(csv_filename, output_pdf):
         # Grid lines
         ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
 
-        # Right-align numeric columns (Daily Hours=4, Hourly Rate=5, Daily Cost=6)
+        # Right-align numeric columns (Daily Hours Index=4, Hourly Rate Index=5, Daily Cost Index=6) 
         ('ALIGN', (4, 1), (6, -1), 'RIGHT'),
     ]))
     elements.append(invoice_table)
