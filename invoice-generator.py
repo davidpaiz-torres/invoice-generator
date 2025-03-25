@@ -92,7 +92,7 @@ def create_invoice(csv_filename, output_pdf):
     )
     invoice_table.setStyle(TableStyle([
         # Header row styling
-        ('BACKGROUND', (0, 0), (-1, 0), colors.steelblue),
+        ('BACKGROUND', (0, 0), (-1, 0), colors.steelblue), # adjust the color if you don't like steelblue.
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
         ('ALIGN', (0, 0), (-1, 0), 'CENTER'),
 
