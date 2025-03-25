@@ -1,6 +1,6 @@
 # Invoice Generator
 
-This is an **Invoice Generator** designed specifically for freelancers who want to easily generate professional invoices without manually creating them. Simply track your hours in a spreadsheet, save it as a CSV file, and enter the csv file name/path in line 134, before running this script to generate a PDF invoice.
+This is an **Invoice Generator** designed specifically for freelancers who are paid per hour and want to easily generate invoices without manually creating them. Simply track your hours in a spreadsheet, save it as a CSV file, and enter the csv file name/path in line 134, before running this script to generate a PDF invoice.
 
 I have included a sample csv file, which you can import to google sheets. Make sure to leave the row named: "Total." To easily calculate the Daily cost, use the following formula in your spreadsheet:=PRODUCT(E2,F2), this will multiply the daily hours worked by the hourly rate. (Make sure that the daily hours and hourly rate columns are located in columns E and F). Use the following formula to determined the total amount owed to you, =SUM(G2:G14) (make sure that your daily cost column is located in column G and adjust 'G14' if needed, to include all of the days you ar tracking).
 
