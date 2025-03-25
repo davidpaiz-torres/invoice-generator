@@ -69,7 +69,7 @@ def create_invoice(csv_filename, output_pdf):
     header_data = [
         [
             Paragraph("<b>BILLED TO:</b><br/>Comapny Name Here", normal_style),
-            Paragraph("<para alignment='right'><b>INVOICE</b><br/>#7</para>", normal_style)
+            Paragraph("<para alignment='right'><b>INVOICE</b><br/>#INVOICE_NUMBER_HERE</para>", normal_style)
         ],
         [
             Paragraph("<b>PAY TO:</b><br/>Your Name Here", normal_style),
