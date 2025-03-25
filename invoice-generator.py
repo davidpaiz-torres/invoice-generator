@@ -88,7 +88,7 @@ def create_invoice(csv_filename, output_pdf):
     # INVOICE TABLE
     invoice_table = Table(
         main_table_data,
-        colWidths=[60, 70, 70, 140, 60, 60, 60]  # Adjust as needed
+        colWidths=[60, 70, 70, 140, 60, 60, 60]  # Adjust this if your table apprears too wide or too narrow
     )
     invoice_table.setStyle(TableStyle([
         # Header row styling
