@@ -19,7 +19,7 @@ I have included a sample csv file, which you can import to google sheets. Make s
 3. **PDF Generation:** Using ReportLab, it creates a PDF with a header section for billing details and an invoice table for your recorded work.
 4. **Customization:** You can modify the header information directly in the script (lines 71-72) to include your personal or business details.
 
-# Script Requirements:#
+# Script Requirements:
 - **Python**
 - **ReportLab Library:** Install via pip if not already installed:
  in terminal or command prompt:
