@@ -131,6 +131,6 @@ def create_invoice(csv_filename, output_pdf):
 
 if __name__ == "__main__":
     create_invoice(
-        "your_timesheet.csv", # include file path if it's not in the same folder as this script
-        "your_invoice.pdf" # include file path if you want to save it in a specific folder
+        "your_timesheet.csv", # change to the name of your csv and include file path if it's not in the same folder as this script
+        "your_invoice.pdf" # adjust the name according to your needs (invoice_1, invoice_2, etc), include file path if you want to save it in a specific folder
     )
